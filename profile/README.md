@@ -16,7 +16,7 @@
 ### *Soluciones Originales*
 
 **Tecnología, Diseño y Cultura.**
-Producimos sistemas de alta complejidad, identidades originales y contenido audiovisual con impacto.
+Producimos sistemas de alta complejidad, marcas memorables y contenido audiovisual con impacto.
 
 [![Sitio](https://img.shields.io/badge/chaska.ar-1b1e31?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chaska.ar)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/ch-aska/)
@@ -28,7 +28,7 @@ Producimos sistemas de alta complejidad, identidades originales y contenido audi
 
 ## Quiénes somos
 
-Somos una empresa argentina de **Tecnología y Arte**. Trabajamos en desarrollo de sistemas, infraestructura, diseño, producción audiovisual, planificación estratégica e inteligencia cultural.
+Somos una empresa argentina de **Tecnología y Arte**. Trabajamos en desarrollo de sistemas, infraestructura, diseño, producción audiovisual, planificación estratégica y publicidad.
 
 Un equipo diverso de personas jóvenes y ambiciosas, con un camino recorrido, que cumple varias funciones y trabaja con una **dinámica horizontal y creativa**. Desarrolladores, productores, diseñadores y estrategas.
 
@@ -52,6 +52,9 @@ Construimos sobre **[chastack](https://github.com/Ch-aska/chastack)**, nuestro s
 
 ### Lenguajes
 
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -94,22 +97,37 @@ Construimos sobre **[chastack](https://github.com/Ch-aska/chastack)**, nuestro s
 
 ---
 
-## Repositorios
+## Open Source
+
+Herramientas y librerías que liberamos a la comunidad.
 
 <div align="center">
 
 <!--
-  Pin cards dinámicas: muestran descripción, lenguaje, estrellas y forks,
-  y se actualizan solas. Duplicá el <a>...</a> para sumar más repos.
-  OJO: la instancia pública NO renderiza repos privados. Si chastack es
-  privado, generá las tarjetas con tu propio workflow + PAT (ver más abajo).
+  Pin cards dinámicas: traen solas la descripción, el lenguaje, las estrellas
+  y los forks del repo. Duplicá el <a>...</a> para sumar más.
+
+  VERIFICAR EL OWNER: si alguno de estos repos vive bajo tu usuario
+  (hernanatn/...) y no bajo la org, cambiá el username= correspondiente.
+
+  OJO: la instancia pública NO renderiza repos privados. Para repos
+  privados, generá las tarjetas con tu propio workflow + PAT.
+
+  Reemplazá NOMBRE_REPO en los bloques comentados por cada librería de C
+  que quieras mostrar.
 -->
 <a href="https://github.com/Ch-aska/chastack">
-  <img src="https://github.com/Ch-aska/.github/raw/main/profile/estadisticas/chastack.svg" alt="chastack" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ch-aska&repo=chastack&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45" alt="chastack" />
 </a>
 <!--
-<a href="https://github.com/Ch-aska/OTRO-REPO">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ch-aska&repo=OTRO-REPO&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45" alt="OTRO-REPO" />
+<a href="https://github.com/Ch-aska/aplicacion.go">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ch-aska&repo=aplicacion.go&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45" alt="aplicacion.go" />
+</a>
+<a href="https://github.com/Ch-aska/errores--">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ch-aska&repo=errores--&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45" alt="errores--" />
+</a>
+<a href="https://github.com/Ch-aska/NOMBRE_REPO">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ch-aska&repo=NOMBRE_REPO&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45" alt="NOMBRE_REPO" />
 </a>
 -->
 
@@ -121,7 +139,7 @@ Construimos sobre **[chastack](https://github.com/Ch-aska/chastack)**, nuestro s
 
 ### Hablanos
 
-**[chaska.ar](https://chaska.ar)** · Lavalle 715 2° A, Buenos Aires, Argentina
+**[chaska.ar](https://chaska.ar)** · Lavalle 715 2°A, Buenos Aires, Argentina
 
 Ch'aska S.R.L. · CUIT 30-71830899-9
 
