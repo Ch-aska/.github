@@ -105,7 +105,7 @@ Construimos sobre **[chastack](https://github.com/Ch-aska/chastack)**, nuestro s
   privado, generá las tarjetas con tu propio workflow + PAT (ver más abajo).
 -->
 <a href="https://github.com/Ch-aska/chastack">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ch-aska&repo=chastack&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45" alt="chastack" />
+  <img src="https://github.com/Ch-aska/.github/raw/main/profile/estadisticas/chastack.svg" alt="chastack" />
 </a>
 <!--
 <a href="https://github.com/Ch-aska/OTRO-REPO">
