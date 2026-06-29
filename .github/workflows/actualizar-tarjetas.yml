@@ -1,0 +1,37 @@
+name: Actualizar Tarjetas Ch'aska
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generar Pin chastack
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Ch-aska&repo=chastack&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45
+          path: profile/estadisticas/chastack.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Duplicá este bloque por cada repo que quieras mostrar:
+      # - name: Generar Pin OTRO_REPO
+      #   uses: readme-tools/github-readme-stats-action@v1
+      #   with:
+      #     card: pin
+      #     options: username=Ch-aska&repo=OTRO_REPO&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45
+      #     path: profile/estadisticas/otro_repo.svg
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commitear
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/estadisticas/*.svg
+          git commit -m "Actualizar Tarjetas Ch'aska" || exit 0
+          git push
