@@ -1,0 +1,2 @@
+# .github
+No entregamos mierda.
