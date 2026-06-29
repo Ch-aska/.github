@@ -17,7 +17,23 @@ jobs:
           card: pin
           options: username=Ch-aska&repo=chastack&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45
           path: profile/estadisticas/chastack.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_NUMERITOS }}
+
+      - name: Generar Pin aplicacion.go
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Ch-aska&repo=aplicacion.go&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45
+          path: profile/estadisticas/aplicacion_go.svg
+          token: ${{ secrets.PAT_NUMERITOS }}
+
+      - name: Generar Pin errores--
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=Ch-aska&repo=errores--&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45
+          path: profile/estadisticas/errores.svg
+          token: ${{ secrets.PAT_NUMERITOS }}
 
       # Duplicá este bloque por cada repo que quieras mostrar:
       # - name: Generar Pin OTRO_REPO
@@ -26,7 +42,7 @@ jobs:
       #     card: pin
       #     options: username=Ch-aska&repo=OTRO_REPO&bg_color=1b1e31&title_color=f5a623&text_color=c9d1d9&icon_color=f5a623&border_color=2a2e45
       #     path: profile/estadisticas/otro_repo.svg
-      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     token: ${{ secrets.PAT_NUMERITOS }}
 
       - name: Commitear
         run: |
